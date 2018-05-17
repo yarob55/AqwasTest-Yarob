@@ -97,6 +97,11 @@
 		497D25BD20AD9E7D003B48FF /* AqwasTest */ = {
 			isa = PBXGroup;
 			children = (
+				497D25F020AD9EE3003B48FF /* Extra */,
+				497D25EF20AD9EDB003B48FF /* Services */,
+				497D25EE20AD9ECC003B48FF /* Controller */,
+				497D25ED20AD9EC5003B48FF /* view */,
+				497D25EC20AD9EBB003B48FF /* Model */,
 				497D25BE20AD9E7D003B48FF /* AppDelegate.swift */,
 				497D25C020AD9E7D003B48FF /* ViewController.swift */,
 				497D25C220AD9E7D003B48FF /* Main.storyboard */,
@@ -123,6 +128,41 @@
 				497D25E020AD9E7E003B48FF /* Info.plist */,
 			);
 			path = AqwasTestUITests;
+			sourceTree = "<group>";
+		};
+		497D25EC20AD9EBB003B48FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		497D25ED20AD9EC5003B48FF /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		497D25EE20AD9ECC003B48FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		497D25EF20AD9EDB003B48FF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		497D25F020AD9EE3003B48FF /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
