@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="AqwasTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaU-mX-Dxc" customClass="CustomizableButton" customModule="AqwasTest" customModuleProvider="target">
+                                <rect key="frame" x="105" y="570" width="165" height="40"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="ns9-qA-Lh0"/>
+                                    <constraint firstAttribute="height" constant="40" id="rBn-lG-qsV"/>
+                                </constraints>
+                                <state key="normal" title="اقترح">
+                                    <color key="titleColor" red="0.15101002159999999" green="0.56891876460000002" blue="0.43715286250000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRad">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="suggestButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SoU-Wo-jse"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="A67-Lw-O21">
+                                <rect key="frame" x="70" y="503" width="235" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="231" id="m3D-Aa-4pb"/>
+                                </constraints>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15101002156734467" green="0.56891876459121704" blue="0.43715286254882812" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="WaU-mX-Dxc" firstAttribute="top" secondItem="A67-Lw-O21" secondAttribute="bottom" constant="37" id="8u4-tV-4Lc"/>
+                            <constraint firstItem="A67-Lw-O21" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZLG-RY-UxY"/>
+                            <constraint firstItem="WaU-mX-Dxc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mJW-Yb-2hW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WaU-mX-Dxc" secondAttribute="bottom" constant="57" id="sWD-xR-kel"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="rangeSlider" destination="A67-Lw-O21" id="OKH-xP-M3K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-175.19999999999999" y="139.880059970015"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1oS-1k-MtJ">
+            <objects>
+                <viewController id="yba-3D-XaI" customClass="ViewController" customModule="AqwasTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8KK-Aa-gAu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.15101002159999999" green="0.56891876460000002" blue="0.43715286250000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="rfF-Eg-JDU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="axg-LQ-vaX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="636" y="140"/>
+        </scene>
+    </scenes>
+</document>
