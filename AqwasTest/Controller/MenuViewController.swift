@@ -30,19 +30,13 @@ class MenuViewController: UIViewController,UIScrollViewDelegate {
         messageLabel.alpha = 0.0
         makeRepeatedImages(image: #imageLiteral(resourceName: "down-arrow"), inView: contentView, amount: 14)
         
-        
-        
-//        print("\n\n\nthe position of the message is:",messageLabel.frame.origin.y)
-//
-//        print("the size of the scrolling space:",scrollview.contentSize.height)
-        // Do any additional setup after loading the view.
     }
     
     private func makeRepeatedImages(image:UIImage, inView view:UIView, amount:Int)
     {
-        for var i in 0..<amount
+        for i in 0..<amount
         {
-            var imageview = SpringImageView(image: image)
+            let imageview = SpringImageView(image: image)
             imageview.frame = CGRect(x: Int(self.contentView.frame.width/2), y: 300+i*150, width: 70, height: 70)
             imageview.center.x = exMarkLabel.center.x-70
             imageview.isHidden = true
@@ -89,7 +83,8 @@ class MenuViewController: UIViewController,UIScrollViewDelegate {
     }
     
     
-
+    
+    //this delegated method is used to fade in and out the elements gradually according to the scrolling position
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         //print("the pos of scrollview:",scrollview.contentOffset.y)
         

@@ -79,7 +79,7 @@ class MainViewController: UIViewController {
         //if the location is set and the request location is done..
         if let location = myLocation
         {
-            RestaurantService.getRestaurant(latitude: location.lat, longitude: location.long, radius:5000)
+            RestaurantService.getRestaurant(latitude: location.lat, longitude: location.long, radius:10000)
                 { (err, restaurant) in
                     self.indicator.stopAnimating()
                     if let err = err
