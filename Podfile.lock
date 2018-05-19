@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (4.7.1)
+  - ComplimentaryGradientView (0.1.7)
+  - DynamicBlurView (2.0.2)
+  - GoogleMaps (2.6.0):
+    - GoogleMaps/Maps (= 2.6.0)
+  - GoogleMaps/Base (2.6.0)
+  - GoogleMaps/Maps (2.6.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.6.0):
+    - GoogleMaps (= 2.6.0)
+    - GooglePlaces (= 2.6.0)
+  - GooglePlaces (2.6.0):
+    - GoogleMaps/Base (= 2.6.0)
+  - GuillotineMenu (3.0.1)
+  - IQKeyboardManagerSwift (6.0.0)
+  - NVActivityIndicatorView (4.2.0):
+    - NVActivityIndicatorView/Presenter (= 4.2.0)
+  - NVActivityIndicatorView/Presenter (4.2.0)
+  - PopupDialog (0.7.1):
+    - DynamicBlurView (~> 2.0)
+  - SideMenu (3.1.5)
+  - Spring (1.0.5)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ComplimentaryGradientView
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - GuillotineMenu (~> 3.0)
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - PopupDialog
+  - SideMenu
+  - Spring
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  ComplimentaryGradientView: 890f99feb7864d95ac2dc6b622afb3b81e10ac5c
+  DynamicBlurView: aa6db4defc6e537eb86fc5e58dd3991666178399
+  GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
+  GooglePlacePicker: e4488625effb006f59de49e14b7a603e463e4261
+  GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
+  GuillotineMenu: d186bcb1b827d9c2b8da564bc4535a0c4413acb1
+  IQKeyboardManagerSwift: 624f128983eec795deacd50c1cd2f72664d13f08
+  NVActivityIndicatorView: 75c9634073e03b31d7e2748cd2417feab1206195
+  PopupDialog: 39598b7d41719f5c025b4b70e62728bae7734fef
+  SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
+  Spring: 17901566c8ecf3a1327902b940406c64512f9bb1
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 50c0fb907dd4f5a1238937f02d79676b6077d658
+
+COCOAPODS: 1.4.0

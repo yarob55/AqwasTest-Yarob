@@ -31,7 +31,12 @@ class RestaurantService
                 //success case.......
                 case .success(let val):
                     let json = JSON(val)
-                    var restaurant:Restaurant?
+                    var restaurant = Restaurant()
+                    restaurant.name = json["name"].string
+                    restaurant.rate = json["rate"].double
+                    restaurant.cateName = json["cateName"].string
+                    
+                    
                     print("restaurant from the service",json)
                     //let user = post.1["user"]
                     completion(nil, restaurant)

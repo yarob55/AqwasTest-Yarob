@@ -10,6 +10,13 @@ target 'AqwasTest' do
   pod 'Spring'
   pod 'IQKeyboardManagerSwift'
   pod 'ComplimentaryGradientView'
+  pod 'NVActivityIndicatorView'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
+  pod 'PopupDialog'
+  pod 'GuillotineMenu', '~> 3.0'
+  pod 'SideMenu'
 
   target 'AqwasTestTests' do
     inherit! :search_paths

@@ -17,7 +17,7 @@ struct Colors
     
     static let yellow = #colorLiteral(red: 0.9921568627, green: 0.8117647059, blue: 0, alpha: 1)
     static let blue = #colorLiteral(red: 0.2389388382, green: 0.5892125368, blue: 0.8818323016, alpha: 1)
-    static let mainColor = #colorLiteral(red: 0.262835294, green: 0.8022480607, blue: 0.3886030316, alpha: 1)
+    static let mainColor = #colorLiteral(red: 0.2549019608, green: 0.5176470588, blue: 0.568627451, alpha: 1)
 
 
 }

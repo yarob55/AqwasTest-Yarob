@@ -9,7 +9,8 @@
 import UIKit
 
 @IBDesignable class CustomizableButton: UIButton {
-
+    
+    var shadowRadiusSteps:Float = 20.0
     @IBInspectable var radius : CGFloat = 0 {
         didSet{
             self.layer.cornerRadius = radius;
@@ -19,14 +20,14 @@ import UIKit
     @IBInspectable var yShadow:CGFloat = 0
         {
         didSet{
-            layer.shadowOffset = CGSize(width: -1, height: yShadow)
+            layer.shadowOffset = CGSize(width: 0, height: yShadow)
         }
     }
     
     @IBInspectable var shadowOpacity:Float = 0
         {
         didSet{
-            layer.shadowOpacity = shadowOpacity
+            layer.shadowOpacity = shadowOpacity/shadowRadiusSteps
         }
     }
     

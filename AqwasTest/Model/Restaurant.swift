@@ -12,7 +12,7 @@ import UIKit
 class Restaurant
 {
     var name:String!
-    var rate:Int!
+    var rate:Double!
     var cateName:String!
     var isFav:Bool!
     var lat:Double!

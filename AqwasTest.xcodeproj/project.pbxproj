@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3F287AE5E0DF9006D0CC7B8F /* Pods_AqwasTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E574D47EDC7AB5B1F44C32 /* Pods_AqwasTest.framework */; };
 		497D25BF20AD9E7D003B48FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D25BE20AD9E7D003B48FF /* AppDelegate.swift */; };
-		497D25C120AD9E7D003B48FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D25C020AD9E7D003B48FF /* ViewController.swift */; };
 		497D25C420AD9E7D003B48FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497D25C220AD9E7D003B48FF /* Main.storyboard */; };
 		497D25C620AD9E7E003B48FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497D25C520AD9E7E003B48FF /* Assets.xcassets */; };
 		497D25C920AD9E7E003B48FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497D25C720AD9E7E003B48FF /* LaunchScreen.storyboard */; };
@@ -25,6 +24,9 @@
 		497D260420ADC046003B48FF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D260320ADC046003B48FF /* MainViewController.swift */; };
 		497D260820ADC396003B48FF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497D260720ADC396003B48FF /* CoreLocation.framework */; };
 		497D260A20ADCD58003B48FF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D260920ADCD58003B48FF /* Location.swift */; };
+		497D260F20AEE7B0003B48FF /* ar-font1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 497D260E20AEE7B0003B48FF /* ar-font1.ttf */; };
+		49999F2320AEF28F00B5BFD1 /* MessageDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49999F2220AEF28F00B5BFD1 /* MessageDialog.swift */; };
+		49999F2520AF113400B5BFD1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49999F2420AF113400B5BFD1 /* MenuViewController.swift */; };
 		6E65058D4FF16DD4EAE44658 /* Pods_AqwasTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCA19DA9540C716B57FCFDC /* Pods_AqwasTestTests.framework */; };
 		CD2EE8AAEA8338F1BFC94B70 /* Pods_AqwasTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000BD378761ED0A0E2624E81 /* Pods_AqwasTestUITests.framework */; };
 /* End PBXBuildFile section */
@@ -53,7 +55,6 @@
 		47B5F22B84FDA0F5A78E0902 /* Pods-AqwasTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AqwasTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AqwasTest/Pods-AqwasTest.release.xcconfig"; sourceTree = "<group>"; };
 		497D25BB20AD9E7D003B48FF /* AqwasTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AqwasTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		497D25BE20AD9E7D003B48FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		497D25C020AD9E7D003B48FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		497D25C320AD9E7D003B48FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		497D25C520AD9E7E003B48FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		497D25C820AD9E7E003B48FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +75,9 @@
 		497D260320ADC046003B48FF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		497D260720ADC396003B48FF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		497D260920ADCD58003B48FF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		497D260E20AEE7B0003B48FF /* ar-font1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ar-font1.ttf"; path = "../../../../ios workshop/ar-font1.ttf"; sourceTree = "<group>"; };
+		49999F2220AEF28F00B5BFD1 /* MessageDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDialog.swift; sourceTree = "<group>"; };
+		49999F2420AF113400B5BFD1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		7B5D9E0311DA65686BCC5924 /* Pods-AqwasTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AqwasTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AqwasTestTests/Pods-AqwasTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		80C199DFFEB11C8B4A173A01 /* Pods-AqwasTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AqwasTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AqwasTest/Pods-AqwasTest.debug.xcconfig"; sourceTree = "<group>"; };
 		BEF232594AD639F7F17E2A35 /* Pods-AqwasTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AqwasTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AqwasTestUITests/Pods-AqwasTestUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -195,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				497D260320ADC046003B48FF /* MainViewController.swift */,
+				49999F2420AF113400B5BFD1 /* MenuViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -210,7 +215,9 @@
 		497D25F020AD9EE3003B48FF /* Extra */ = {
 			isa = PBXGroup;
 			children = (
+				497D260D20AEE788003B48FF /* fonts */,
 				497D25F520ADAB60003B48FF /* customizable components */,
+				49999F2220AEF28F00B5BFD1 /* MessageDialog.swift */,
 				497D25FC20ADAB6F003B48FF /* Colors.swift */,
 				497D25F120ADAA05003B48FF /* Url.swift */,
 			);
@@ -230,13 +237,20 @@
 		497D260020ADAD09003B48FF /* Main Files */ = {
 			isa = PBXGroup;
 			children = (
-				497D25C020AD9E7D003B48FF /* ViewController.swift */,
 				497D25BE20AD9E7D003B48FF /* AppDelegate.swift */,
 				497D25C220AD9E7D003B48FF /* Main.storyboard */,
 				497D25C520AD9E7E003B48FF /* Assets.xcassets */,
 				497D25C720AD9E7E003B48FF /* LaunchScreen.storyboard */,
 			);
 			path = "Main Files";
+			sourceTree = "<group>";
+		};
+		497D260D20AEE788003B48FF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				497D260E20AEE7B0003B48FF /* ar-font1.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 		6A67BEFE6F0D210A283C4AE0 /* Pods */ = {
@@ -368,6 +382,7 @@
 				497D25C920AD9E7E003B48FF /* LaunchScreen.storyboard in Resources */,
 				497D25C620AD9E7E003B48FF /* Assets.xcassets in Resources */,
 				497D25C420AD9E7D003B48FF /* Main.storyboard in Resources */,
+				497D260F20AEE7B0003B48FF /* ar-font1.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +445,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AqwasTest/Pods-AqwasTest-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -496,7 +518,12 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-AqwasTest/Pods-AqwasTest-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/ComplimentaryGradientView/ComplimentaryGradientView.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/GuillotineMenu/GuillotineMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -504,7 +531,12 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ComplimentaryGradientView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GuillotineMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -553,11 +585,12 @@
 				497D25F920ADAB60003B48FF /* CustomizableImageView.swift in Sources */,
 				497D25FD20ADAB6F003B48FF /* Colors.swift in Sources */,
 				497D25FB20ADAB60003B48FF /* CustomizableView.swift in Sources */,
+				49999F2520AF113400B5BFD1 /* MenuViewController.swift in Sources */,
 				497D25F420ADAA81003B48FF /* Restaurant.swift in Sources */,
 				497D25FF20ADABB6003B48FF /* RestaurantService.swift in Sources */,
-				497D25C120AD9E7D003B48FF /* ViewController.swift in Sources */,
 				497D25F220ADAA06003B48FF /* Url.swift in Sources */,
 				497D25BF20AD9E7D003B48FF /* AppDelegate.swift in Sources */,
+				49999F2320AEF28F00B5BFD1 /* MessageDialog.swift in Sources */,
 				497D25FA20ADAB60003B48FF /* CustomizableButton.swift in Sources */,
 				497D260A20ADCD58003B48FF /* Location.swift in Sources */,
 				497D260420ADC046003B48FF /* MainViewController.swift in Sources */,
@@ -734,16 +767,18 @@
 			baseConfigurationReference = 80C199DFFEB11C8B4A173A01 /* Pods-AqwasTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64K8NPHD2G;
 				INFOPLIST_FILE = AqwasTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Yarob.AqwasTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -754,16 +789,18 @@
 			baseConfigurationReference = 47B5F22B84FDA0F5A78E0902 /* Pods-AqwasTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64K8NPHD2G;
 				INFOPLIST_FILE = AqwasTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Yarob.AqwasTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
